@@ -43,15 +43,13 @@ button.addEventListener("click", function(e) {
     resultForm.value = sum;
 
 
+});
+ 
+
 //SpreadSheetの取得
 var SS = SpreadsheetApp.openById("1xVJSbo6wOgy1DR0-iryS56f7vAppMdo51q-Do58fjLs"); 
 var sheet= SS.getSheetByName("test"); 
 sheet.getRange(3, 3).setValue(new Date())
-
-});
- 
-
-
 
 
 
